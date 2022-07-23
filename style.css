@@ -7,3 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+#review-stars i {
+  color: #ffc300
+}
