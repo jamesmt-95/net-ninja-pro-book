@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Bootstrap 5</title>
+  </head>
+  <body>
+    <h1>H1 Heading</h1>
+    <h2>H2 Heading</h2>
+    <h3>H3 Heading</h3>
+
+    <!-- Headings and paragraphs -->
+    <!-- Bootstrap providesclasses like h1, h2 ....h6 -->
+    <h2 class="h1">An h2 tag with h1 bootstrap class</h2>
+    <h2 class="h6">An h2 tag with h6 bootstrap class</h2>
+
+    <!-- Display Heading -->
+    <h2 class="display-1">An h2 tag with display-1 bootstrap class</h2>
+    <h2 class="display-6">An h2 tag with display-6 bootstrap class</h2>
+
+    <!-- Lead Text & Alignment -->
+    <!-- This is normal p tag -->
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quo in
+      incidunt aliquam mollitia. Cum?
+    </p>
+    <!-- This is p tag with lead class and text-center -->
+    <p class="lead text-center">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quo in
+      incidunt aliquam mollitia. Cum?
+    </p>
+    <p class="text-start">Lorem ipsum dolor sit amet.</p>
+    <p class="text-end">Lorem ipsum dolor sit amet.</p>
+
+    <!-- Text decoraton -->
+    <p class="text-decoration-underline">Lorem ipsum dolor sit amet.</p>
+    <p class="text-decoration-line-through">Lorem ipsum dolor sit amet.</p>
+    <!-- Also text-decoration-none -->
+
+    <!-- Font style and font weight -->
+    <small>This is small tag</small>
+    <p class="fw-bold">Bold text.</p>
+    <p class="fw-normal">Normal weight text.</p>
+    <p class="fw-light">Light weight text.</p>
+    <!-- fst-* represents font-style -->
+    <p class="fst-italic">Italic text.</p>
+    <p class="fst-normal">Text with normal font style</p>
+
+    <!-- Text-colors -->
+    <p class="text-primary">Primary Color</p>
+    <p class="text-secondary">Secondary Color</p>
+    <p class="text-success">Success Color</p>
+    <p class="text-danger">Danger Color</p>
+    <p class="text-warning">Warning Color</p>
+    <p class="text-info">Info Color</p>
+    <p class="text-dark">Dark Color</p>
+    <p class="text-light bg-dark">Light Color</p>
+    <p class="text-muted">Muted Text</p>
+
+    <!-- bg colors -->
+    <div class="bg-primary">Background - Primary Color</div>
+    <div class="bg-secondary">Background - Secondary Color</div>
+    <div class="bg-success">Background - Success Color</div>
+    <div class="bg-danger">Background - Danger Color</div>
+    <div class="bg-warning">Background - Warning Color</div>
+    <div class="bg-info">Background - Info Color</div>
+    <div class="bg-dark">Background - Dark Color</div>
+    <div class="bg-light">Background - Light Color</div>
+
+    <!-- Buttons -->
+    <div class="my-4">
+      <button class="btn btn-primary">Btn Primary</button>
+      <button class="btn btn-secondary">Btn Secondary</button>
+      <button class="btn btn-success">Btn Success</button>
+      <button class="btn btn-danger">Btn Danger</button>
+      <button class="btn btn-warning">Btn Warning</button>
+      <button class="btn btn-info">Btn Info</button>
+      <button class="btn btn-dark">Btn Dark</button>
+      <button class="btn btn-light">Btn Light</button>
+      <button class="btn btn-link">Btn Link</button>
+    </div>
+
+    <!-- anchor tag as button -->
+    <div class="my-4">
+      <a href="#" class="btn btn-primary">A tag Btn Primary</a>
+    </div>
+
+    <!-- button with different sizes -->
+    <div class="my-4">
+      <a href="#" class="btn btn-primary btn-lg">Large Button</a>
+      <a href="#" class="btn btn-primary btn-sm">Large Button</a>
+    </div>
+
+    <!-- button with outline -->
+    <div class="my-4">
+      <button class="btn btn-outline-primary">Btn Primary</button>
+      <button class="btn btn-outline-secondary">Btn Secondary</button>
+      <button class="btn btn-outline-success">Btn Success</button>
+      <button class="btn btn-outline-danger">Btn Danger</button>
+      <button class="btn btn-outline-warning">Btn Warning</button>
+      <button class="btn btn-outline-info">Btn Info</button>
+      <button class="btn btn-outline-dark">Btn Dark</button>
+      <button class="btn btn-outline-light">Btn Light</button>
+      <button class="btn btn-outline-link">Btn Link</button>
+    </div>
+
+    <!-- button group -->
+    <div class="btn-group my-4">
+      <button class="btn btn-primary">Left</button
+      ><button class="btn btn-primary">Middle</button>
+      <button class="btn btn-primary">Right</button>
+    </div>
+
+    <!-- Bootstrap Utilities -->
+
+    <!-- Margin and Padding -->
+    <div class="spacing my-1 ms-2">Margin top & bottom + Margin left</div>
+    <!-- s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+        e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL -->
+    <!-- How to change document direction? -->
+    <!-- <html lang="ar" dir="rtl"> ar=> arabic & rtl=>right-to-left-->
+
+    <div class="spacing p-2 me-2">Padding + Margin right</div>
+
+    <!-- Border -->
+    <span class="border border-dark rounded border-primary">Border</span>
+    <span class="border-top border-1">Border</span>
+    <span class="border-end border-dark">Border</span>
+    <span class="border-bottom border-dark">Border</span>
+    <span class="border-start border-dark border-5">Border</span>
+    <span class="border-0">Border</span>
+    <!--Border: none-->
+    <!-- Border sizes varies from 1 to 5  (.border-1 ... .border-5)-->
+    <!-- Border color's are border-primary, border-secondary .... -->
+
+    <!-- Rounded Border -->
+    <span class="border rounded border-5">Border rounded</span>
+    <span class="border rounded-circle border-5">Border rounded circle</span>
+    <span class="border rounded-pill border-5">Border rounded pill</span>
+
+    <!-- Box shadow -->
+    <div class="shadow-none w-25 mx-auto my-4">No Shadow</div>
+    <div class="shadow w-25 mx-auto my-4">Normal Shadow</div>
+    <div class="shadow-sm w-25 mx-auto my-4">Shadow small</div>
+    <div class="shadow-lg w-25 mx-auto my-4">Shadow large</div>
+
+    <!-- Container -->
+    <!-- bs-5 allows us to use container class with different break points, such as
+    .container-sm, .container-md,.container-lg, .container-xl, .container-xxl & .container-fluid -->
+    <p class="lead my-5">Bootstrap Container</p>
+    <div class="container my-4">
+      <h2>Normal Container</h2>
+      <!-- Basic Grid -->
+      <div class="row my-4">
+        <div class="col-8">Column - 8</div>
+        <div class="col-4">Column - 4</div>
+      </div>
+      <div class="row my-4">
+        <div class="col">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+        <div class="col">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+        <div class="col">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+        <div class="col">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+      </div>
+      <div class="row my-4 justify-content-md-between">
+        <!-- untill medium(md), it will be start(default) -->
+        <div class="col-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+        <div class="col-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+        <div class="col-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          excepturi, et ratione fuga numquam nostrum beatae eligendi quibusdam
+          doloremque ex accusamus ullam hic alias reiciendis.
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Fluid Container</h2>
+    </div>
+    <div class="container-lg">
+      <h2>100% width Container until large screen</h2>
+    </div>
+    <div class="container-md">
+      <h2>100% width Container until medium screen</h2>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
